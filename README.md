@@ -19,9 +19,13 @@ My goal to predict: who will be promoted?
 To do this I should do next things:
 
 To clean our data
+
 To make exploratory data analysis
+
 To prepare our data for Machine Learning
+
 To build and upgrade our Machine Learning model
+
 
 ## Exploratory Data Analysis
 
@@ -42,7 +46,7 @@ In this part I cleaned data, prepare it for model building and etc. This is the 
 
 ## Model Building
 
-In this part of the project I have to built models, that will predict, who will be promoted. My goal was to promote right employees, so in this case accuracy and precision was my priority, but it shouldn't be 80-90% of recall. 
+In this part of the project I have to built models, that will predict, who will be promoted. My goal was to promote right employees, so in this case accuracy and precision was my priority. 
 
 I choosed five perspective models, which could help us. After test review, I stopped on two most effective model:
 1. Random Forest Classification
