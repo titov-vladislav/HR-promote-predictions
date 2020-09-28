@@ -33,8 +33,11 @@ I explored how did our features distribute, how they work together. For more you
 
 Here we can see the distribution of age groups among our clients. It is very important because the largest age group (18-29) buys a small number of insurers, as compared to the other in percentage.
 ![Age_Groups](/graphs/age_groups.png)
+
 Annual premium had many emissions that we eliminated in the next step, but after elimination we can see the normal distribution. As we can see, the number of people paying less than 10,000 is enough, so we need to work on that later. But that’s another task.
 ![Annual_Premium](/graphs/annual_premium.png)
+
+
 Vintage is the number of days a customer has spent with the company. As we can see, people usually stop buying our insurance for 100 and 200 days.
 ![Vintage](/graphs/vintage_response.png)
 
