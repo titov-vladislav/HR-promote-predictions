@@ -31,15 +31,24 @@ To build and upgrade our Machine Learning model
 
 I explored how did our features distribute, how they work together. For more you can look at my EDA part, there are a lot of graph, which is intesting and helpful. They helped we to understand, how our data works. Below you can see most important graphs.
 
+The following conclusions can be drawn from our explanatory data analysis:
+
+  - We have a strong relations between rating and promotions, average training score and promotions and etc.
+  - There are a lot of outliers, which we should clean before model building.
+  - We need one more feature, in my opinion it should be one productivity feature, because there are a lot of disparate features, which we couldn't express in one, such as KPI,     rating and training score.
+
+For the greatest illustration, I’ll show you some graphs that are most important.
+
+First of all it is worth paying attention to correlation matrix, it is clear which factors are closely related to promotion of the employee.
 Here we can see the distribution of age groups among our clients. It is very important because the largest age group (18-29) buys a small number of insurers, as compared to the other in percentage.
-![Age_Groups](/graphs/age_groups.png)
+![Сorrelation Matrix](/graphs/сorr_map.png)
 
-Annual premium had many emissions that we eliminated in the next step, but after elimination we can see the normal distribution. As we can see, the number of people paying less than 10,000 is enough, so we need to work on that later. But that’s another task.
-![Annual_Premium](/graphs/annual_premium.png)
+Another important indicator is average training score, it is important to us and this we can see on the graph. Staff with the highest scores are promoted, after some limit (above 90 points) people are promoted with almost 100% probability
+![Training score promotion](/graphs/training_score_promotion.png)
 
 
-Vintage is the number of days a customer has spent with the company. As we can see, people usually stop buying our insurance for 100 and 200 days.
-![Vintage](/graphs/vintage_response.png)
+But beyond that, we have another measure of efficiency, which is the human rating of the past year. And the graph below shows how the average score, age and progression are related. As we can see from the people who get promoted, the average rating is above 3.5.
+![Age_Rating](/graphs/age_rating.png)
 
 ## Data Preprocessing
 
