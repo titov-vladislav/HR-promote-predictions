@@ -40,7 +40,6 @@ The following conclusions can be drawn from our explanatory data analysis:
 For the greatest illustration, I’ll show you some graphs that are most important.
 
 First of all it is worth paying attention to correlation matrix, it is clear which factors are closely related to promotion of the employee.
-Here we can see the distribution of age groups among our clients. It is very important because the largest age group (18-29) buys a small number of insurers, as compared to the other in percentage.
 ![Сorrelation Matrix](/graphs/сorr_map.png)
 
 Another important indicator is average training score, it is important to us and this we can see on the graph. Staff with the highest scores are promoted, after some limit (above 90 points) people are promoted with almost 100% probability
